@@ -1,0 +1,72 @@
+/* About.css */
+
+/* Style for square cards */
+.square-card {
+    height: 300px; /* Fixed height to make them square */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Gray background for the card body */
+  .gray-bg {
+    background-color: #d3d3d3; /* Light gray color */
+    color: #000; /* Black text color */
+  }
+  
+  /* Header styles with different colors */
+  .header-red {
+    background-color: #ff6b6b; /* Light red */
+    color: white; /* White text for contrast */
+  }
+  
+  .header-blue {
+    background-color: #4a90e2; /* Light blue */
+    color: white; /* White text for contrast */
+  }
+  
+  .header-green {
+    background-color: #4caf50; /* Light green */
+    color: white; /* White text for contrast */
+  }
+  
+  /* Optional: Additional styles for the card headers */
+  .card-header {
+    font-weight: bold; /* Bold text for card headers */
+    font-size: 1.25rem; /* Slightly larger font size for headers */
+    text-align: center; /* Center align text */
+  }
+  .about-container {
+    background-color: #f7f7f7; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    margin: 20px; /* Margin around the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center align all text */
+}
+
+/* Responsive Title */
+.about-title {
+    color: #333; /* Highlighted color for the title */
+    margin-bottom: 15px; /* Space below the title */
+    font-weight: bold; /* Bold title */
+    font-size: 2rem; /* Default size */
+}
+
+/* Responsive Description */
+.about-description, .mp4-combiner-text {
+    color: #333; /* Black text for readability */
+    line-height: 1.6; /* Spacing between lines */
+    margin-bottom: 20px; /* Space below the description */
+    font-size: 1rem; /* Default size */
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .about-title {
+        font-size: 1.5rem; /* Smaller title on mobile */
+    }
+    
+    .about-description, .mp4-combiner-text {
+        font-size: 0.9rem; /* Smaller text on mobile */
+    }
+}

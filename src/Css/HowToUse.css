@@ -1,0 +1,50 @@
+.how-to-use-container {
+    max-width: 600px; 
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+  }
+  
+  .step {
+    width: 100%; 
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    transition: background-color 0.3s; 
+  }
+  
+  .step-title {
+    font-size: 25px;
+    cursor: pointer;
+    color: #3b3c3d; 
+    font-weight: bold;
+  }
+  
+  .step-title:hover {
+    color: #717172; 
+  }
+  
+  .step-content {
+    margin-top: 10px;
+    color: black; 
+  }
+  
+  
+  /* Responsive Media Queries */
+  @media (max-width: 768px) {
+    .how-to-title {
+      font-size: 1.5rem; /* Smaller title on mobile */
+    }
+  
+    .step-title {
+      font-size: 1.2rem; /* Slightly smaller step title on mobile */
+    }
+  }
+  

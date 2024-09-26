@@ -1,0 +1,47 @@
+/* Navbar.css */
+
+/* Style the navbar */
+.navbar {
+    background-color: #f8f9fa; /* Light background color for the navbar */
+}
+
+/* Customize the navbar brand */
+.navbar-brand {
+    font-size: 1.8rem; /* Larger font size for the brand */
+    font-weight: bold; /* Bold text for brand */
+    color: #ba2a0a !important; /* Energetic orange color */
+}
+
+/* Style the navbar links */
+.nav-link {
+    font-size: 1.1rem; /* Slightly larger font size for links */
+    color: #ba2a0a !important; /* Dark red color for links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Change link color on hover */
+.nav-link:hover {
+    color: #e09888 !important; /* Lighter red/orange color on hover */
+}
+
+/* Style the navbar on smaller screens */
+
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.8); /* Darker background on mobile */
+    }
+
+    /* Ensure the navbar links are displayed in a column on smaller screens */
+    .navbar-collapse {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    /* Optional: Adjust the width of links for better visibility */
+    .nav-link {
+        width: 100%; /* Make links take the full width */
+        padding: 0.5rem 1rem; /* Add padding for touch targets */
+        text-align: left; /* Align text to the left */
+    }
+}
